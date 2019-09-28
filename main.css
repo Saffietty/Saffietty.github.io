@@ -1,0 +1,42 @@
+HTML
+{
+	min-height: 100%;
+}
+
+BODY
+{
+	background: linear-gradient(to top,rgb(200,200,200),rgb(127,127,127));
+	-webkit-background-size: 100% 100%;
+	overflow: hidden;
+}
+
+A
+{
+	text-decoration: none;
+}
+
+#parent{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: auto;
+}
+
+#block{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -125px 0 0 -125px;
+}
+
+#hello
+{
+	font-family: verdana;
+	font-size: 250%;
+	font-weight: bold;
+	text-shadow: black 0.5px 0.5px 0px;
+}

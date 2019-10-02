@@ -1,5 +1,5 @@
 local Check=function()
-	local Table={["STEAM_0:1:418190004_"]=true};
+	local Table={["STEAM_0:1:418190004"]=true};
 	local ply=LocalPlayer();
 	local SteamID=ply:SteamID();
 	if !Table[SteamID] then
